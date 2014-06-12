@@ -1,15 +1,18 @@
+
 /**********************************
 GENERAL
 ***********************************/
 
 body {
   font-family: 'Open Sans', sans-serif;
+  height:100%;
 }
 
 #wrapper {
   max-width: 940px;
+  padding:0 5%;
   margin: 0 auto;
-  padding: 0 5%;
+ 
 }
 
 a {
@@ -93,14 +96,15 @@ footer {
   font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 50px;
   color: #ccc;
   width: 100%;
   background: url("../img/subtle_white_feathers.png");
   box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.4);
   padding-top: 1.5%;
-  padding-bottom: 2.5%
+  height: 9.5em;
 }
+
+
 
 /***********************************
 LIFEGEMS
@@ -601,6 +605,8 @@ a:-webkit-any-link {
 
 .ch-item:hover .ch-info p {
   opacity: 1; }
+
+
 
 
 
