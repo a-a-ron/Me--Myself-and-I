@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px){
+  .socialMedia{
+    margin-left: -12%;
+  }
+
+  .icon-facebook:before {
+  content: "\e604";
+  font-size: 3.9em;
+  color: gray;
+  line-height: 1.2; /*1.5 for iphone*/
+  }
+
+  .icon-facebook:after {
+  content: "\e604";
+  font-size: 3.9em;
+  color: #3b5997;
+  line-height: 1.2; /*1.5 for iphone*/
+  }
+
+  .logo img {
+  margin: 5px 0px -5px 10px;
+  height: 70%;
+  width: 80%; 
+  }
+
+  nav {
+  padding: 15px 0;
+  margin: 20px 0 0;
+  }
+
+  nav ul {
+  margin: 0 1px;
+  }
+}
