@@ -31,4 +31,45 @@
   nav ul {
   margin: 0 1px;
   }
+
+  .hidden{
+    display: inline-block;
+  }
+
+  .button {
+  display: inline-block;
+  padding: 1em 1.618em;
+  color: white;
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 30%;
+  border: none;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  overflow: visible;
+  width: auto;
+  line-height: 1.618em;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  background: #687C90;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -ms-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  -webkit-border-radius: 300px;
+  border-radius: 300px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; }
+  .button:hover {
+    background: #4F6377;
+    box-shadow: 0 0 0 3px #B4C8DC;
+    -webkit-box-shadow: 0 0 0 3px #B4C8DC; }
 }
